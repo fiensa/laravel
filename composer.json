@@ -1,0 +1,19 @@
+{
+    "name": "arungruang/purwantara",
+    "description": "arung ruang purwantara package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fiensa Afri Mahensa",
+            "email": "fiensa123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Arungruang\\Purwantara\\": "src/"
+        }
+    },
+    "require": {}
+}
