@@ -24,8 +24,5 @@
             "url": "https://repo.packagist.com/arungruang/"
         }
     },
-    "require": {
-        "org/foo": "^1.2.3",
-        "org/bar": "dev-master"
-    }
+    "require": {}
 }
