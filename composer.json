@@ -25,5 +25,5 @@
             "version": "dev-master"
         }
     },
-    "require": {}
+    "require-all": true
 }
