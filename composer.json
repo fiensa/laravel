@@ -15,11 +15,15 @@
             "Arungruang\\Purwantara\\": "src/"
         }
     },
-    "require": {},
-    "repositories": [
-        {"type": "composer", "url": "https://repo.packagist.com/your-org-name/"},
-        {
-            "packagist.org": false
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/arungruang/"
         }
-    ]
+    },
+    "require": {
+        "org/foo": "^1.2.3",
+        "org/bar": "dev-master"
+    }
 }
