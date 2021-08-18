@@ -9,6 +9,8 @@
             "email": "fiensa123@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
+    "prefer-stable" : true,
     "autoload": {
         "psr-4": {
             "Arungruang\\Purwantara\\": "src/"
@@ -24,7 +26,5 @@
     "require": {
         "org/foo": "^1.2.3",
         "org/bar": "dev-master"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    }
 }
