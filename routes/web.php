@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use Arungruang\Purwantara\Purwantara;
+use Arungruang\Purwantara\Http\Controllers\PurwantaraController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,11 +15,17 @@ use Arungruang\Purwantara\Purwantara;
 |
 */
 
-Route::get('/', function () {
+Route::get('/a', function () {
     return view('welcome');
 });
 
 Route::get('/salam/{name}', function($sName) {
     $oGreetr = new Purwantara();
     return $oGreetr->greet($sName);
+});
+// Route::get('/slap', [PurwantaraController::class, 'index']);
+
+Route::group(['namespace' => 'Arungruang\Purwantara\Http\Controllers'], function()
+{
+    Route::get('about', ['uses' => 'PurwantaraController@index']);
 });
