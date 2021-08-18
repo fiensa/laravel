@@ -24,7 +24,11 @@
             "version": "dev-master"
         }
     },
-    "require-all": {
-        "arungruang/purwantara": "dev- *"
+    "require": {},
+    "http-basic": {
+        "repo.packagist.com": {
+            "username": "fiensa",
+            "password": "e5e8d3d45263d4630d2f915ed026319e31a6adf63294b2a9423161e7d1f8"
+        }
     }
 }
