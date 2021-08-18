@@ -10,23 +10,15 @@
         }
     ],
     "minimum-stability": "beta",
-    "prefer-stable" : true,
     "autoload": {
         "psr-4": {
             "Arungruang\\Purwantara\\": "src/"
         }
     },
-    "repositories": {
-        "packagist.org": false,
-        "private-packagist": {
-            "type": "composer",
-            "url": "https://repo.packagist.com/arungruang/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.5 || ^9.0",
-        "phpstan/phpstan": "^0.12.88"
-    },
+    "repositories": [
+        {"type": "composer", "url": "https://arungruang.repo.repman.io"}
+    ],
+    "require": {},
     "http-basic": {
         "repo.packagist.com": {
             "username": "fiensa",
