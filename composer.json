@@ -16,11 +16,10 @@
         }
     },
     "require": {},
-    "repositories": {
-        "packagist.org": false,
-        "private-packagist": {
-            "type": "composer",
-            "url": "https://repo.packagist.com/arungruang/"
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/your-org-name/"},
+        {
+            "packagist.org": false
         }
-    }
+    ]
 }
