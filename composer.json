@@ -1,6 +1,6 @@
 {
-    "name": "arungruang/purwantara",
-    "description": "test",
+    "name": "fiens/purwantara",
+    "description": "my project",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -16,8 +16,7 @@
         }
     },
     "repositories": [
-        {"type": "composer", "url": "https://repo.packagist.com/arungruang/"},
-        {"packagist.org": false}
+        {"type": "composer", "url": "https://arungruang.repo.repman.io"}
     ],
     "require": {},
     "http-basic": {
