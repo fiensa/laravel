@@ -16,7 +16,8 @@
         }
     },
     "repositories": [
-        {"type": "composer", "url": "https://arungruang.repo.repman.io"}
+        {"type": "composer", "url": "https://repo.packagist.com/your-org-name/"},
+        {"packagist.org": false}
     ],
     "require": {},
     "http-basic": {
