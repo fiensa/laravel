@@ -1,6 +1,6 @@
 {
     "name": "arungruang/purwantara",
-    "description": "arung ruang purwantara package",
+    "description": "test",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
             "email": "fiensa123@gmail.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Arungruang\\Purwantara\\": "src/"
