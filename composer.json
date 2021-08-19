@@ -16,7 +16,7 @@
         }
     },
     "repositories": [
-        {"type": "composer", "url": "https://repo.packagist.com/your-org-name/"},
+        {"type": "composer", "url": "https://repo.packagist.com/arungruang/"},
         {"packagist.org": false}
     ],
     "require": {},
